@@ -9,9 +9,9 @@ Build  : v1706
 Arch   : "LSB;label=32;scalar=64"
 Exec   : surfaceFeatureExtract
 Date   : Sep 24 2024
-Time   : 05:30:53
-Host   : "20fcd3efb818"
-PID    : 215
+Time   : 05:44:26
+Host   : "090d9b97cc5b"
+PID    : 229
 Case   : //data
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
@@ -291,7 +291,7 @@ Writing 12 edge directions to "//data/constant/extendedFeatureEdgeMesh/Surface_e
 
 Writing featureEdgeMesh to "//data/constant/triSurface/Surface.eMesh"
 
-ExecutionTime = 0.06 s  ClockTime = 1 s
+ExecutionTime = 0.02 s  ClockTime = 0 s
 
 End
 
