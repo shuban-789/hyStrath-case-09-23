@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1706                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1706
+Arch   : "LSB;label=32;scalar=64"
+Exec   : checkMesh -latestTime
+Date   : Sep 24 2024
+Time   : 05:31:12
+Host   : "20fcd3efb818"
+PID    : 217
+Case   : //data
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 4
+
+Time = 4
+
+Mesh stats
+    points:           58007
+    faces:            159580
+    internal faces:   145172
+    cells:            50792
+    faces per cell:   6
+    boundary patches: 6
+    point zones:      0
+    face zones:       0
+    cell zones:       0
+
+Overall number of cells of each type:
+    hexahedra:     50792
+    prisms:        0
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    world               8568     8570     ok (closed singly connected)      
+    RocketBody          368      381      ok (non-closed singly connected)  
+    RocketFaceDown      32       45       ok (non-closed singly connected)  
+    SheildBody          1375     1614     ok (non-closed singly connected)  
+    ShieldFaceOut       1034     1251     ok (non-closed singly connected)  
+    Surface             3031     3145     ok (non-closed singly connected)  
+
+Checking geometry...
+    Overall domain bounding box (-21.0795 -21.0795 -1) (21.07949 21.0795 29)
+    Mesh has 3 geometric (non-empty/wedge) directions (1 1 1)
+    Mesh has 3 solution (non-empty) directions (1 1 1)
+    Boundary openness (-6.888397e-17 6.074408e-17 3.687637e-16) OK.
+    Max cell openness = 3.329312e-16 OK.
+    Max aspect ratio = 3.637992 OK.
+    Minimum face area = 0.33226. Maximum face area = 2.063641.  Face area magnitudes OK.
+    Min volume = 0.2074536. Max volume = 1.890897.  Total volume = 50480.66.  Cell volumes OK.
+    Mesh non-orthogonality Max: 34.89934 average: 2.812141
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 1.888098 OK.
+    Coupled point location match (average 0) OK.
+
+Mesh OK.
+
+End
+
