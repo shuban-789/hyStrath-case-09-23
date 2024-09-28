@@ -21,21 +21,6 @@ dsmcPatchBoundaries
     {
         patchBoundaryProperties
         {
-            patchName                           spline;
-        }
-
-        boundaryModel   dsmcDeletionPatch;
-
-        dsmcDeletionPatchProperties
-        {
-            allSpecies		yes;
-        }
-    }
-
-    boundary
-    {
-        patchBoundaryProperties
-        {
             patchName                           RocketFaceDown;
         }
 
@@ -44,22 +29,6 @@ dsmcPatchBoundaries
         dsmcDeletionPatchProperties
         {
             allSpecies                yes;
-        }
-    }
-
-    boundary
-    {
-        patchBoundaryProperties
-        {
-            patchName         RocketBody; // wall config (check w sam)
-        }
-
-        boundaryModel   dsmcDiffuseWallPatch;
-
-        dsmcDiffuseWallPatchProperties
-        {
-            velocity 			(0 0 0); // tune temperatures
-            temperature			1000;
         }
     }
 
@@ -99,23 +68,7 @@ dsmcPatchBoundaries
     {
         patchBoundaryProperties
         {
-            patchName         SheildFaceOut; // wall config (check w sam)
-        }
-
-        boundaryModel   dsmcDiffuseWallPatch;
-
-        dsmcDiffuseWallPatchProperties
-        {
-            velocity 			(0 0 0); // tune temperatures
-            temperature			1000;
-        }
-    }
-
-    boundary
-    {
-        patchBoundaryProperties
-        {
-            patchName         RocketBody; // wall config (check w sam)
+            patchName         ShieldFaceOut; // wall config (check w sam)
         }
 
         boundaryModel   dsmcDiffuseWallPatch;
@@ -153,10 +106,6 @@ dsmcGeneralBoundaries
 (
     boundary
     {
-        generalBoundaryProperties
-        {
-        patchName                           spline;
-        }
 
         boundaryModel   dsmcFreeStreamInflowPatch;
 

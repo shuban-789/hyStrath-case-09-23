@@ -19,7 +19,7 @@ FoamFile
 // General Properties
 // ~~~~~~~~~~~~~~~~~~
 
-nEquivalentParticles            2.6708e15;
+nEquivalentParticles            2.6708e17;
 // Results folder 3.2711/ had nEquivalentParticles = 1.0e14
 
 

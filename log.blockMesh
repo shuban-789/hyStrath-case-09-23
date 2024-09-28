@@ -8,11 +8,11 @@
 Build  : v1706
 Arch   : "LSB;label=32;scalar=64"
 Exec   : blockMesh
-Date   : Sep 24 2024
-Time   : 05:44:25
-Host   : "090d9b97cc5b"
-PID    : 228
-Case   : //data
+Date   : Sep 27 2024
+Time   : 20:52:50
+Host   : "58a111c9f764"
+PID    : 219
+Case   : /data/hyStrath-case-09-23
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -22,9 +22,9 @@ allowSystemOperations : Allowing user-supplied system call operations
 Create time
 
 Deleting polyMesh directory
-    "//data/constant/polyMesh"
+    "/data/hyStrath-case-09-23/constant/polyMesh"
 Creating block mesh from
-    "//data/system/blockMeshDict"
+    "/data/hyStrath-case-09-23/system/blockMeshDict"
 Creating block edges
 No non-planar block faces defined
 Creating topology blocks

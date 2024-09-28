@@ -8,11 +8,11 @@
 Build  : v1706
 Arch   : "LSB;label=32;scalar=64"
 Exec   : surfaceFeatureExtract
-Date   : Sep 24 2024
-Time   : 05:44:26
-Host   : "090d9b97cc5b"
-PID    : 229
-Case   : //data
+Date   : Sep 27 2024
+Time   : 20:52:52
+Host   : "58a111c9f764"
+PID    : 220
+Case   : /data/hyStrath-case-09-23
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -62,22 +62,22 @@ Final Feature set:
         open edges         : 32
         multiply connected : 0
 
-Writing extendedFeatureEdgeMesh to "//data/constant/extendedFeatureEdgeMesh/RocketBody.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody.extendedFeatureEdgeMesh"
 
-Writing extendedEdgeMesh components to "//data/constant/extendedFeatureEdgeMesh/RocketBody"
-Writing 0 convex feature points to "//data/constant/extendedFeatureEdgeMesh/RocketBody_convexFeaturePts.obj"
-Writing 0 concave feature points to "//data/constant/extendedFeatureEdgeMesh/RocketBody_concaveFeaturePts.obj"
-Writing 0 mixed feature points to "//data/constant/extendedFeatureEdgeMesh/RocketBody_mixedFeaturePts.obj"
-Writing 0 mixed feature point structure to "//data/constant/extendedFeatureEdgeMesh/RocketBody_mixedFeaturePtsStructure.obj"
-Writing 32 external edges to "//data/constant/extendedFeatureEdgeMesh/RocketBody_externalEdges.obj"
-Writing 0 internal edges to "//data/constant/extendedFeatureEdgeMesh/RocketBody_internalEdges.obj"
-Writing 0 flat edges to "//data/constant/extendedFeatureEdgeMesh/RocketBody_flatEdges.obj"
-Writing 32 open edges to "//data/constant/extendedFeatureEdgeMesh/RocketBody_openEdges.obj"
-Writing 0 multiple edges to "//data/constant/extendedFeatureEdgeMesh/RocketBody_multipleEdges.obj"
-Writing 32 region edges to "//data/constant/extendedFeatureEdgeMesh/RocketBody_regionEdges.obj"
-Writing 64 edge directions to "//data/constant/extendedFeatureEdgeMesh/RocketBody_edgeDirections.obj"
+Writing extendedEdgeMesh components to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody"
+Writing 0 convex feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_convexFeaturePts.obj"
+Writing 0 concave feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_concaveFeaturePts.obj"
+Writing 0 mixed feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_mixedFeaturePts.obj"
+Writing 0 mixed feature point structure to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_mixedFeaturePtsStructure.obj"
+Writing 32 external edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_externalEdges.obj"
+Writing 0 internal edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_internalEdges.obj"
+Writing 0 flat edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_flatEdges.obj"
+Writing 32 open edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_openEdges.obj"
+Writing 0 multiple edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_multipleEdges.obj"
+Writing 32 region edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_regionEdges.obj"
+Writing 64 edge directions to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketBody_edgeDirections.obj"
 
-Writing featureEdgeMesh to "//data/constant/triSurface/RocketBody.eMesh"
+Writing featureEdgeMesh to "/data/hyStrath-case-09-23/constant/triSurface/RocketBody.eMesh"
 
 Surfaces     : RocketFaceDown.stl
 Output       : RocketFaceDown
@@ -115,22 +115,22 @@ Final Feature set:
         open edges         : 32
         multiply connected : 0
 
-Writing extendedFeatureEdgeMesh to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown.extendedFeatureEdgeMesh"
 
-Writing extendedEdgeMesh components to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown"
-Writing 0 convex feature points to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_convexFeaturePts.obj"
-Writing 0 concave feature points to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_concaveFeaturePts.obj"
-Writing 0 mixed feature points to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_mixedFeaturePts.obj"
-Writing 0 mixed feature point structure to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_mixedFeaturePtsStructure.obj"
-Writing 0 external edges to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_externalEdges.obj"
-Writing 0 internal edges to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_internalEdges.obj"
-Writing 0 flat edges to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_flatEdges.obj"
-Writing 32 open edges to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_openEdges.obj"
-Writing 0 multiple edges to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_multipleEdges.obj"
-Writing 32 region edges to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_regionEdges.obj"
-Writing 32 edge directions to "//data/constant/extendedFeatureEdgeMesh/RocketFaceDown_edgeDirections.obj"
+Writing extendedEdgeMesh components to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown"
+Writing 0 convex feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_convexFeaturePts.obj"
+Writing 0 concave feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_concaveFeaturePts.obj"
+Writing 0 mixed feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_mixedFeaturePts.obj"
+Writing 0 mixed feature point structure to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_mixedFeaturePtsStructure.obj"
+Writing 0 external edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_externalEdges.obj"
+Writing 0 internal edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_internalEdges.obj"
+Writing 0 flat edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_flatEdges.obj"
+Writing 32 open edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_openEdges.obj"
+Writing 0 multiple edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_multipleEdges.obj"
+Writing 32 region edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_regionEdges.obj"
+Writing 32 edge directions to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/RocketFaceDown_edgeDirections.obj"
 
-Writing featureEdgeMesh to "//data/constant/triSurface/RocketFaceDown.eMesh"
+Writing featureEdgeMesh to "/data/hyStrath-case-09-23/constant/triSurface/RocketFaceDown.eMesh"
 
 Surfaces     : SheildBody.stl
 Output       : SheildBody
@@ -168,22 +168,22 @@ Final Feature set:
         open edges         : 160
         multiply connected : 64
 
-Writing extendedFeatureEdgeMesh to "//data/constant/extendedFeatureEdgeMesh/SheildBody.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody.extendedFeatureEdgeMesh"
 
-Writing extendedEdgeMesh components to "//data/constant/extendedFeatureEdgeMesh/SheildBody"
-Writing 0 convex feature points to "//data/constant/extendedFeatureEdgeMesh/SheildBody_convexFeaturePts.obj"
-Writing 0 concave feature points to "//data/constant/extendedFeatureEdgeMesh/SheildBody_concaveFeaturePts.obj"
-Writing 19 mixed feature points to "//data/constant/extendedFeatureEdgeMesh/SheildBody_mixedFeaturePts.obj"
-Writing 19 mixed feature point structure to "//data/constant/extendedFeatureEdgeMesh/SheildBody_mixedFeaturePtsStructure.obj"
-Writing 66 external edges to "//data/constant/extendedFeatureEdgeMesh/SheildBody_externalEdges.obj"
-Writing 16 internal edges to "//data/constant/extendedFeatureEdgeMesh/SheildBody_internalEdges.obj"
-Writing 0 flat edges to "//data/constant/extendedFeatureEdgeMesh/SheildBody_flatEdges.obj"
-Writing 160 open edges to "//data/constant/extendedFeatureEdgeMesh/SheildBody_openEdges.obj"
-Writing 64 multiple edges to "//data/constant/extendedFeatureEdgeMesh/SheildBody_multipleEdges.obj"
-Writing 224 region edges to "//data/constant/extendedFeatureEdgeMesh/SheildBody_regionEdges.obj"
-Writing 306 edge directions to "//data/constant/extendedFeatureEdgeMesh/SheildBody_edgeDirections.obj"
+Writing extendedEdgeMesh components to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody"
+Writing 0 convex feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_convexFeaturePts.obj"
+Writing 0 concave feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_concaveFeaturePts.obj"
+Writing 19 mixed feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_mixedFeaturePts.obj"
+Writing 19 mixed feature point structure to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_mixedFeaturePtsStructure.obj"
+Writing 66 external edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_externalEdges.obj"
+Writing 16 internal edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_internalEdges.obj"
+Writing 0 flat edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_flatEdges.obj"
+Writing 160 open edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_openEdges.obj"
+Writing 64 multiple edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_multipleEdges.obj"
+Writing 224 region edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_regionEdges.obj"
+Writing 306 edge directions to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/SheildBody_edgeDirections.obj"
 
-Writing featureEdgeMesh to "//data/constant/triSurface/SheildBody.eMesh"
+Writing featureEdgeMesh to "/data/hyStrath-case-09-23/constant/triSurface/SheildBody.eMesh"
 
 Surfaces     : ShieldFaceOut.stl
 Output       : ShieldFaceOut
@@ -221,22 +221,22 @@ Final Feature set:
         open edges         : 114
         multiply connected : 0
 
-Writing extendedFeatureEdgeMesh to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut.extendedFeatureEdgeMesh"
 
-Writing extendedEdgeMesh components to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut"
-Writing 0 convex feature points to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_convexFeaturePts.obj"
-Writing 0 concave feature points to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_concaveFeaturePts.obj"
-Writing 19 mixed feature points to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_mixedFeaturePts.obj"
-Writing 19 mixed feature point structure to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_mixedFeaturePtsStructure.obj"
-Writing 21 external edges to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_externalEdges.obj"
-Writing 26 internal edges to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_internalEdges.obj"
-Writing 0 flat edges to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_flatEdges.obj"
-Writing 114 open edges to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_openEdges.obj"
-Writing 0 multiple edges to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_multipleEdges.obj"
-Writing 114 region edges to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_regionEdges.obj"
-Writing 161 edge directions to "//data/constant/extendedFeatureEdgeMesh/ShieldFaceOut_edgeDirections.obj"
+Writing extendedEdgeMesh components to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut"
+Writing 0 convex feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_convexFeaturePts.obj"
+Writing 0 concave feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_concaveFeaturePts.obj"
+Writing 19 mixed feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_mixedFeaturePts.obj"
+Writing 19 mixed feature point structure to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_mixedFeaturePtsStructure.obj"
+Writing 21 external edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_externalEdges.obj"
+Writing 26 internal edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_internalEdges.obj"
+Writing 0 flat edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_flatEdges.obj"
+Writing 114 open edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_openEdges.obj"
+Writing 0 multiple edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_multipleEdges.obj"
+Writing 114 region edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_regionEdges.obj"
+Writing 161 edge directions to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/ShieldFaceOut_edgeDirections.obj"
 
-Writing featureEdgeMesh to "//data/constant/triSurface/ShieldFaceOut.eMesh"
+Writing featureEdgeMesh to "/data/hyStrath-case-09-23/constant/triSurface/ShieldFaceOut.eMesh"
 
 Surfaces     : Surface.stl
 Output       : Surface
@@ -274,24 +274,24 @@ Final Feature set:
         open edges         : 0
         multiply connected : 0
 
-Writing extendedFeatureEdgeMesh to "//data/constant/extendedFeatureEdgeMesh/Surface.extendedFeatureEdgeMesh"
+Writing extendedFeatureEdgeMesh to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface.extendedFeatureEdgeMesh"
 
-Writing extendedEdgeMesh components to "//data/constant/extendedFeatureEdgeMesh/Surface"
-Writing 0 convex feature points to "//data/constant/extendedFeatureEdgeMesh/Surface_convexFeaturePts.obj"
-Writing 8 concave feature points to "//data/constant/extendedFeatureEdgeMesh/Surface_concaveFeaturePts.obj"
-Writing 0 mixed feature points to "//data/constant/extendedFeatureEdgeMesh/Surface_mixedFeaturePts.obj"
-Writing 0 mixed feature point structure to "//data/constant/extendedFeatureEdgeMesh/Surface_mixedFeaturePtsStructure.obj"
-Writing 0 external edges to "//data/constant/extendedFeatureEdgeMesh/Surface_externalEdges.obj"
-Writing 12 internal edges to "//data/constant/extendedFeatureEdgeMesh/Surface_internalEdges.obj"
-Writing 0 flat edges to "//data/constant/extendedFeatureEdgeMesh/Surface_flatEdges.obj"
-Writing 0 open edges to "//data/constant/extendedFeatureEdgeMesh/Surface_openEdges.obj"
-Writing 0 multiple edges to "//data/constant/extendedFeatureEdgeMesh/Surface_multipleEdges.obj"
-Writing 0 region edges to "//data/constant/extendedFeatureEdgeMesh/Surface_regionEdges.obj"
-Writing 12 edge directions to "//data/constant/extendedFeatureEdgeMesh/Surface_edgeDirections.obj"
+Writing extendedEdgeMesh components to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface"
+Writing 0 convex feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_convexFeaturePts.obj"
+Writing 8 concave feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_concaveFeaturePts.obj"
+Writing 0 mixed feature points to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_mixedFeaturePts.obj"
+Writing 0 mixed feature point structure to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_mixedFeaturePtsStructure.obj"
+Writing 0 external edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_externalEdges.obj"
+Writing 12 internal edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_internalEdges.obj"
+Writing 0 flat edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_flatEdges.obj"
+Writing 0 open edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_openEdges.obj"
+Writing 0 multiple edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_multipleEdges.obj"
+Writing 0 region edges to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_regionEdges.obj"
+Writing 12 edge directions to "/data/hyStrath-case-09-23/constant/extendedFeatureEdgeMesh/Surface_edgeDirections.obj"
 
-Writing featureEdgeMesh to "//data/constant/triSurface/Surface.eMesh"
+Writing featureEdgeMesh to "/data/hyStrath-case-09-23/constant/triSurface/Surface.eMesh"
 
-ExecutionTime = 0.02 s  ClockTime = 0 s
+ExecutionTime = 0.04 s  ClockTime = 0 s
 
 End
 
