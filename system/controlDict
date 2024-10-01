@@ -9,33 +9,37 @@ FoamFile
 
 application     snappyHexMesh;
 
-startFrom       latestTime; // startTime;
+nTerminalOutputs    10;
+
+startFrom       latestTime;
 
 startTime       0;
 
 stopAt          endTime;
 
-endTime         1;
+endTime         4;
 
-deltaT          1;
+deltaT          7.0e-6;
 
-writeControl    timeStep;
+writeControl    runTime;
 
-writeInterval   1;
+writeInterval   7.0e-3;
 
-purgeWrite      0;
+purgeWrite      2;
 
 writeFormat     ascii;
 
-writePrecision  7;
+writePrecision  10;
 
-writeCompression on;
+writeCompression uncompressed;
 
 timeFormat      general;
 
-timePrecision   6;
+timePrecision   10;
 
 runTimeModifiable yes;
+
+adjustTimeStep  no;
 
 functions
 {
