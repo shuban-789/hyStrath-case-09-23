@@ -95,6 +95,22 @@ dsmcPatchBoundaries
             temperature			1000;
         }
     }
+
+    boundary
+    {
+        patchBoundaryProperties
+        {
+            patchName         world; // wall config (check w sam)
+        }
+
+        boundaryModel   dsmcDiffuseWallPatch;
+
+        dsmcDiffuseWallPatchProperties
+        {
+            velocity 			(0 0 0); // tune temperatures
+            temperature			1000;
+        }
+    }
 );
 
 dsmcCyclicBoundaries
@@ -106,6 +122,10 @@ dsmcGeneralBoundaries
 (
     boundary
     {
+        generalBoundaryProperties
+        {
+            patchName                           world;
+        }
 
         boundaryModel   dsmcFreeStreamInflowPatch;
 
