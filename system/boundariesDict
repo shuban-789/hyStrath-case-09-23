@@ -157,7 +157,7 @@ dsmcGeneralBoundaries
         dsmcFreeStreamInflowPatchProperties
         {
             typeIds                   (N2 O2); // Probably change these values
-            velocity			     (6053.4 0 0);
+            velocity			     (0 0 -3500);
             translationalTemperature	     217.63;
             rotationalTemperature          217.63;
             vibrationalTemperature         217.63;
