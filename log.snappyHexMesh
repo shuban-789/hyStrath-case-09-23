@@ -8,11 +8,11 @@
 Build  : v1706
 Arch   : "LSB;label=32;scalar=64"
 Exec   : snappyHexMesh
-Date   : Sep 27 2024
-Time   : 20:52:52
-Host   : "58a111c9f764"
-PID    : 221
-Case   : /data/hyStrath-case-09-23
+Date   : Oct 04 2024
+Time   : 02:49:43
+Host   : "e03a7b304ae8"
+PID    : 217
+Case   : //data
 nProcs : 1
 sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
 fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
@@ -21,13 +21,13 @@ allowSystemOperations : Allowing user-supplied system call operations
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 Create time
 
-Create mesh for time = 6
+Create mesh for time = 1.133
 
-Read mesh in = 0.32 s
+Read mesh in = 0.28 s
 
-Overall mesh bounding box  : (-21.10663 -21.10663 -1) (21.10686 21.10663 29)
+Overall mesh bounding box  : (-21 -21 -1) (21 21 29)
 Relative tolerance         : 1e-06
-Absolute matching distance : 6.681271e-05
+Absolute matching distance : 6.654321904e-05
 
 Reading refinement surfaces.
 Read refinement surfaces in = 0 s
@@ -41,45 +41,45 @@ For geometry RocketFaceDown detected 0 uncached triangles out of 30
 For geometry SheildBody detected 0 uncached triangles out of 506
 For geometry ShieldFaceOut detected 0 uncached triangles out of 198
 For geometry Surface detected 0 uncached triangles out of 12
-Checked shell refinement in = 0 s
+Checked shell refinement in = 0.01 s
 
 Reading features.
 Read edgeMesh RocketBody.eMesh
     points      : 64
     edges       : 64
-    boundingBox : (-3.05405 -3.3 13.84081) (3.54595 3.3 27.84081)
+    boundingBox : (-3.054049969 -3.299999952 13.84081459) (3.545949936 3.299999952 27.84081459)
 
 Refinement level according to distance to "RocketBody.eMesh" (64 points, 64 edges).
     level 0 for all cells within 0 metre.
 Read edgeMesh RocketFaceDown.eMesh
     points      : 32
     edges       : 32
-    boundingBox : (-3.05405 -3.3 13.84081) (3.54595 3.3 13.84081)
+    boundingBox : (-3.054049969 -3.299999952 13.84081459) (3.545949936 3.299999952 13.84081459)
 
 Refinement level according to distance to "RocketFaceDown.eMesh" (32 points, 32 edges).
     level 0 for all cells within 0 metre.
 Read edgeMesh SheildBody.eMesh
     points      : 300
     edges       : 306
-    boundingBox : (-15 -15 0.04945564) (15 15 10.2)
+    boundingBox : (-15 -15.00000191 0.0494556427) (15 15 10.19999981)
 
 Refinement level according to distance to "SheildBody.eMesh" (300 points, 306 edges).
     level 0 for all cells within 0 metre.
 Read edgeMesh ShieldFaceOut.eMesh
     points      : 156
     edges       : 161
-    boundingBox : (-15 -15 0.1865568) (15 15 10.2)
+    boundingBox : (-15 -15.00000191 0.1865568161) (15 15 10.19999981)
 
 Refinement level according to distance to "ShieldFaceOut.eMesh" (156 points, 161 edges).
     level 0 for all cells within 0 metre.
 Read edgeMesh Surface.eMesh
     points      : 8
     edges       : 12
-    boundingBox : (-20 -20 -0.2119996) (20 20 0)
+    boundingBox : (-20 -20 -0.2119995952) (20 20 0)
 
 Refinement level according to distance to "Surface.eMesh" (8 points, 12 edges).
     level 0 for all cells within 0 metre.
-Read features in = 0.01 s
+Read features in = 0 s
 
 
 Determining initial surface intersections
@@ -88,8 +88,8 @@ Determining initial surface intersections
 Edge intersection testing:
     Number of edges             : 159580
     Number of edges to retest   : 159580
-    Number of intersected edges : 3782
-Calculated surface intersections in = 0.29 s
+    Number of intersected edges : 4430
+Calculated surface intersections in = 0.3 s
 
 Initial mesh : cells:50792  faces:159580  points:58007
 Cells per refinement level:
@@ -125,7 +125,7 @@ Added patches in = 0 s
 Edge intersection testing:
     Number of edges             : 159580
     Number of edges to retest   : 5840
-    Number of intersected edges : 5839
+    Number of intersected edges : 5854
 Selecting decompositionMethod none
 Not merging patch-faces of cell to preserve (split)hex cell shape.
 
@@ -133,13 +133,13 @@ Not merging patch-faces of cell to preserve (split)hex cell shape.
 Refinement phase
 ----------------
 
-Found point (0 0 0) in cell 2542 on processor 0
+Found point (0 0 0) in cell 860 on processor 0
 
 Feature refinement iteration 0
 ------------------------------
 
 Marked for refinement due to explicit features             : 0 cells.
-Determined cells to refine in = 0.41 s
+Determined cells to refine in = 0.37 s
 Selected for feature refinement : 0 cells (out of 50792)
 Stopping refining since too few cells selected.
 
@@ -161,186 +161,3 @@ Location : (0 0 0)
     cellZone : none
 
 For cellZone none found point (0 0 0) in global region 0 out of 1 regions.
-Keeping all cells containing points 1((0 0 0))
-Selected for keeping : 50792 cells.
-Edge intersection testing:
-    Number of edges             : 159580
-    Number of edges to retest   : 0
-    Number of intersected edges : 5839
-
-Shell refinement iteration 0
-----------------------------
-
-Marked for refinement due to distance to explicit features : 0 cells.
-Marked for refinement due to refinement shells             : 0 cells.
-Determined cells to refine in = 0.91 s
-Selected for internal refinement : 0 cells (out of 50792)
-Stopping refining since too few cells selected.
-
-
-Dangling coarse cells refinement iteration 0
---------------------------------------------
-
-Determined cells to refine in = 0 s
-Selected for refinement : 0 cells (out of 50792)
-Stopping refining since too few cells selected.
-
-
-Dangling coarse cells refinement iteration 0
---------------------------------------------
-
-Determined cells to refine in = 0.01 s
-Selected for refinement : 0 cells (out of 50792)
-Stopping refining since too few cells selected.
-
-
-Refinement transition refinement iteration 0
---------------------------------------------
-
-Determined cells to refine in = 0 s
-Selected for refinement : 0 cells (out of 50792)
-Stopping refining since too few cells selected.
-
-
-Splitting mesh at surface intersections
----------------------------------------
-
-Introducing baffles for 5839 faces that are intersected by the surface.
-
-Setting cellZones according to locationsInMesh:
-Location : (0 0 0)
-    cellZone : none
-
-For cellZone none found point (0 0 0) in global region 0 out of 1 regions.
-Edge intersection testing:
-    Number of edges             : 159580
-    Number of edges to retest   : 21052
-    Number of intersected edges : 5839
-Created baffles in = 0.89 s
-
-
-After introducing baffles : cells:50792  faces:159580  points:58007
-Cells per refinement level:
-    0	50792
-
-Introducing baffles to block off problem cells
-----------------------------------------------
-
-markFacesOnProblemCells : marked 0 additional internal faces to be converted into baffles.
-Analyzed problem cells in = 0.1 s
-
-
-Introducing baffles to delete problem cells.
-
-Created baffles in = 0.02 s
-
-
-After introducing baffles : cells:50792  faces:159580  points:58007
-Cells per refinement level:
-    0	50792
-Setting cellZones according to locationsInMesh:
-Location : (0 0 0)
-    cellZone : none
-
-For cellZone none found point (0 0 0) in global region 0 out of 1 regions.
-Edge intersection testing:
-    Number of edges             : 159580
-    Number of edges to retest   : 21052
-    Number of intersected edges : 5839
-
-Remove unreachable sections of mesh
------------------------------------
-
-Split mesh in = 1.76 s
-
-
-After subsetting : cells:50792  faces:159580  points:58007
-Cells per refinement level:
-    0	50792
-
-Introducing zones for interfaces
---------------------------------
-
-Setting cellZones according to locationsInMesh:
-Location : (0 0 0)
-    cellZone : none
-
-For cellZone none found point (0 0 0) in global region 0 out of 1 regions.
-Setting faceZones according to neighbouring cellZones:
-
-Edge intersection testing:
-    Number of edges             : 159580
-    Number of edges to retest   : 0
-    Number of intersected edges : 5839
-
-Handling cells with snap problems
----------------------------------
-
-Introducing baffles for 5839 faces that are intersected by the surface.
-
-Setting cellZones according to locationsInMesh:
-Location : (0 0 0)
-    cellZone : none
-
-For cellZone none found point (0 0 0) in global region 0 out of 1 regions.
-Edge intersection testing:
-    Number of edges             : 159580
-    Number of edges to retest   : 21052
-    Number of intersected edges : 5839
-Created baffles in = 1.42 s
-
-
-After introducing baffles : cells:50792  faces:159580  points:58007
-Cells per refinement level:
-    0	50792
-
-Introducing baffles to block off problem cells
-----------------------------------------------
-
-markFacesOnProblemCells : marked 0 additional internal faces to be converted into baffles.
-Analyzed problem cells in = 0.09 s
-
-
-Introducing baffles to delete problem cells.
-
-Created baffles in = 0.03 s
-
-
-After introducing baffles : cells:50792  faces:159580  points:58007
-Cells per refinement level:
-    0	50792
-Setting cellZones according to locationsInMesh:
-Location : (0 0 0)
-    cellZone : none
-
-For cellZone none found point (0 0 0) in global region 0 out of 1 regions.
-Edge intersection testing:
-    Number of edges             : 159580
-    Number of edges to retest   : 21052
-    Number of intersected edges : 5839
-
-Remove unreachable sections of mesh
------------------------------------
-
-Split mesh in = 1.78 s
-
-
-After subsetting : cells:50792  faces:159580  points:58007
-Cells per refinement level:
-    0	50792
-
-Merge free-standing baffles
----------------------------
-
-freeStandingBaffles : detected 0 free-standing baffles out of 0
-
-Detected free-standing baffles : 0
-Merged free-standing baffles in = 0.03 s
-
-
-dupNonManifoldPoints : Found : 0 non-manifold points (out of 58007)
-Detected unsplittable baffles : 0
-
-Merge refined boundary faces
-----------------------------
-

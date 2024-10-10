@@ -28,7 +28,7 @@ dsmcPatchBoundaries
 
         dsmcDeletionPatchProperties
         {
-            allSpecies                yes;
+            allSpecies		yes;
         }
     }
 
@@ -103,12 +103,11 @@ dsmcPatchBoundaries
             patchName         world; // wall config (check w sam)
         }
 
-        boundaryModel   dsmcDiffuseWallPatch;
+        boundaryModel   dsmcDeletionPatch;
 
-        dsmcDiffuseWallPatchProperties
+        dsmcDeletionPatchProperties
         {
-            velocity 			(0 0 0); // tune temperatures
-            temperature			1000;
+            allSpecies                yes;
         }
     }
 );
@@ -120,31 +119,6 @@ dsmcCyclicBoundaries
 
 dsmcGeneralBoundaries
 (
-    boundary
-    {
-        generalBoundaryProperties
-        {
-            patchName                           world;
-        }
-
-        boundaryModel   dsmcFreeStreamInflowPatch;
-
-        dsmcFreeStreamInflowPatchProperties // Probably change these
-        {
-            typeIds                   (N2 O2);
-            velocity			     (6053.4 0 0);
-            translationalTemperature	     217.63;
-            rotationalTemperature          217.63;
-            vibrationalTemperature         217.63;
-            electronicTemperature       0;
-            numberDensities
-            {
-                N2            2.318e18;
-                O2            6.161e17;
-            };
-        }
-    }
-
     boundary
     {
         generalBoundaryProperties
